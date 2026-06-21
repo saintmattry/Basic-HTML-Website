@@ -1,0 +1,74 @@
+/* === PROJECTS PAGE SPECIFIC === */
+main h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 40px 0 30px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+main section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Each project card */
+article {
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  background: #fafafa;
+}
+
+article:hover {
+  background: #f0f0f0;
+}
+
+article h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+
+article p {
+  margin: 15px 0;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Header + Nav - same as other pages */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 30px;
+}
+
+header div span {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 5px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  color: #666;
+}
